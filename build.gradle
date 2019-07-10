@@ -47,5 +47,4 @@ dependencies {
         exclude group:'com.google.guava'
     }
     compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.6.1'
-    compile fileTree(dir:'lib',include:['artemis-http-client-1.0-SNAPSHOT.jar'])
 }
