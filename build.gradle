@@ -31,7 +31,7 @@ configurations {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
-    compile('mysql:mysql-connector-java')
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.47'
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-data-redis')
     compile('org.springframework.boot:spring-boot-starter-jdbc'){
